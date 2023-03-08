@@ -26,7 +26,7 @@ void push(stack s, int v){
 void pop(stack s){
   if(s->top == -1){
     printf("errore di underflow durante un pop\n");
-		exit(1);
+    exit(1);
   }else
     s->top = s->top-1;
   }
